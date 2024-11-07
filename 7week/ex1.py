@@ -15,8 +15,8 @@ plt.rcParams['axes.unicode_minus'] = False
 
 plt.title('서울시 2024년도 여름 기온 변화')
 plt.plot(range(1,len(df2)+1), df2['max_temp'], label = '최고기온', c= 'r')
-plt.plot(range(1,len(df2)+1), df2['avg_temp'], label = '평균기온', c= 'r')
-plt.plot(range(1,len(df2)+1), df2['min_temp'], label = '최저기온', c= 'r')
+plt.plot(range(1,len(df2)+1), df2['avg_temp'], label = '평균기온', c= 'y')
+plt.plot(range(1,len(df2)+1), df2['min_temp'], label = '최저기온', c= 'b')
 plt.xlabel('일')
 plt.ylabel('기온')
 plt.legend()
